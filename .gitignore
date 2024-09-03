@@ -1,0 +1,12 @@
+# Ignore tout
+#ignore venv
+.venv/
+path/
+private
+
+# Ne pas ignorer le dossier 'app'
+!app/
+!assets/
+# Ne pas ignorer les fichiers dans le dossier 'app'
+!app/*
+!assets/*
